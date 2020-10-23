@@ -1,0 +1,149 @@
+body {
+	font-size: 16px;
+	background-color: #2a363b;
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h2, h3 {
+  	margin: 0;
+  	padding-bottom: 10px; 
+}
+
+section {
+	padding: 20px;
+}
+
+p {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#Chicken {
+  background-color: #e84a5f;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-top: 50px;
+}
+
+#Beef {
+  background-color: #ff847c;
+  color: #2a363b;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#Sushi {
+  background-color: #fecea8;
+  color: #2a363b;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+#header-nav {
+	background-color: #931a25;
+	border-radius: 0;
+	border: 0;
+	padding-bottom: 20px;
+}
+
+.navbar-brand {
+	/*height: 100px;*/
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+	color: white;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin: 10px;
+}
+
+#nav-list a {
+	color: white;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background:  #e7e7e7;
+	color:  #2a363b;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #2a363b;
+}
+
+.navbar-header button.navbar-toggle {
+	clear:both;
+	margin-top: -30px;
+}
+
+/* Large devices */
+/*@media (min-width: 1200px) {
+	.container .row {
+	height: 675px;
+	}
+}*/
+
+/* Medium devices  */
+/*@media (min-width: 992px) and (max-width: 1199px) {
+	.container .row {
+	height: 558px;
+	}
+}*/
+
+/* Small devices  */
+/*@media (min-width: 768px) and (max-width: 991px) {
+	.container .row {
+	height: 432px;
+	}
+}*/
+
+/* Extra small devices  */
+@media (max-width: 767px) {
+	/* Header */
+	.navbar-brand {
+		padding-top: 10px;
+		height: 50px;
+	}
+	.navbar-brand h1 { /*Restaurant name*/
+		padding-top: 0;
+		font-size: 5vw; /* 1vw = 1% of viewport width */
+	}
+	#collapsable-nav a { /*collapsed nav menu gluth*/
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	.container .row {
+	margin-top: 30px;
+	padding: 0;
+	}
+	#Chicken {
+		margin-top: 10px;
+	}
+}
